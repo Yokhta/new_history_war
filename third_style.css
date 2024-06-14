@@ -1,0 +1,233 @@
+body {
+    font-family: sans-serif;
+    background-color:#4F5B45;}
+
+header {
+    font-size:30px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Pic_I_V_Ivasiuk_Mykola_Bohdan_Khmelnytskys_Entry_to_Kyiv.jpg/640px-Pic_I_V_Ivasiuk_Mykola_Bohdan_Khmelnytskys_Entry_to_Kyiv.jpg);
+    text-align:center;
+    color: #172a18;
+    font-family:FreeMono, monospace;
+    padding: 15px;
+    border-radius: 15px;}
+
+header img{
+   width: 600px;
+   float: left;}
+
+header h4{
+    font-size: 20px;
+    text-align: right;
+    margin: 5px;
+    color:#E9F4DD;
+    font-family: FreeMono, monospace;
+    -webkit-text-stroke: 1px #57644c;}
+
+ .lpapa {
+    background-color: #859763;
+    border-radius:20px;
+    border: 3px solid #4F5B45;
+}
+
+header h2{
+    font-size: 30px;
+    text-align: center;
+    color:#E9F4DD;
+    -webkit-text-stroke: 2px #454e3d;
+    font-family:FreeMono, monospace;
+    padding: 5px;
+    box-shadow: 3px 3px 3px 3px #5d6a52;
+    background-color: #859763;
+    border-radius:20px;
+    border: 3px solid #4F5B45;}
+
+.menu-his{
+    background-color: #CAEEA8;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family:FreeMono, monospace;
+    display: flex;
+    justify-content: flex-end;}
+
+    .menu a:hover {
+            background-color: #454e3d;
+            color: #000000;
+        }
+
+header a{
+    color:black;
+    background-color: #DEECD0;
+    font-family:Courier, monospace;
+    text-decoration:none;
+    font-size: 20px;
+    border: 3px solid #4F5B45;
+    border-radius: 10px;
+    padding: 7px;
+    margin:10px 25px 10px 25px;
+    text-align: center;}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 3px solid #4F5B45;
+    padding: 15px;}
+
+.nan{
+   flex-wrap: wrap;  
+    opacity: 0.5; }
+.nan:hover {
+    opacity: 1;
+    transition: 0.5s ease-out;}
+
+.non{
+   flex-wrap: wrap;  
+    opacity: 0.5; }
+.non:hover {
+    opacity: 1;
+    transition: 0.5s ease-out;}
+
+.nun{
+   flex-wrap: wrap;  
+    opacity: 0.5; }
+.nun:hover {
+    opacity: 1;
+    transition: 0.5s ease-out;}
+
+.nin{
+    flex-wrap: wrap;  
+    opacity: 0.5; }
+.nin:hover {
+    opacity: 1;
+    transition: 0.5s ease-out;}
+
+.ment {
+    background-image: linear-gradient(#9baf86,#c2e0a3, #9baf86);
+    border: 3px solid #3E4538;
+    border-radius:15px;
+    margin: 30px 5px 30px 5px;} 
+
+.ment h3{
+    background-color: #5F6D54;
+    color:#E4FFCD ;
+    width: 300px;
+    font-size:25px;
+    margin: 15px;}  
+
+.ment img{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    background-color:#3E4538;
+    margin: 10px 20px 30px 50px ;
+    padding: 5px;
+} 
+
+.ment img:hover{
+    width: 500px;
+    height: 500px;
+    border: 10px double #3E4538;}
+
+iframe {
+    border: 1px solid black;
+    background-color:#3E4538;
+    margin:10px 20px 30px 50px ;
+    padding: 5px;
+}
+iframe:hover{
+    width: 500px;
+    height: 500px;
+    border: 10px double #3E4538;}
+
+.cart{
+    display: flex;
+    justify-content: space-around;
+}
+
+.val{
+    background-image: linear-gradient(#9baf86,#c2e0a3, #9baf86);
+    border: 3px solid #3E4538;
+    border-radius:15px;
+    margin: 30px 5px 30px 5px;}
+.val h3{
+    background-color: #5F6D54;
+    color:#E4FFCD ;
+    width: 300px;
+    font-size:25px;
+    margin: 15px;}
+
+    .val img{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    background-color:#3E4538;
+    margin: 10px 20px 30px 50px ;
+    padding: 5px;}
+
+    .val img:hover{
+        width: 500px;
+        height: 500px;
+        border: 10px double #3E4538;}
+
+.nart{
+    display: flex;
+    justify-content: space-around;
+}
+    
+.aim{
+    background-image: linear-gradient(#9baf86,#c2e0a3, #9baf86);
+    border: 3px solid #3E4538;
+    border-radius:15px;
+    margin: 30px 5px 30px 5px;}
+    
+.aim h3{
+    background-color: #5F6D54;
+    color:#E4FFCD ;
+    width: 350px;
+    font-size:25px;
+    margin: 15px;}
+.aim p{
+    text-align:left;
+    font-size:20px;
+    padding: 15px 10px 15px 10px;
+    color: #3E4538;
+    margin: 10px;} 
+    
+    .sinamon{
+        background-image: linear-gradient(#a6bb91,#c2e0a3, #a6bb91);
+        border: 3px solid #3E4538;
+        border-radius:15px;
+        margin: 30px 5px 30px 5px;} 
+    
+        .sinamon h3{
+            background-color: #5F6D54;
+            color:#E4FFCD ;
+            width: 150px;
+            font-size:25px;
+            margin: 15px;}  
+        
+        .sinamon p{
+            text-align:left;
+            font-size:20px;
+            padding: 15px 10px 15px 10px;
+            color: #3E4538;
+            margin: 10px;}  
+
+footer {
+    font-size:15px;
+    background-color:#7B8C6A;
+    text-align:left;
+    color: #172a18;
+    font-family:FreeMono, monospace;
+    padding: 15px;
+    border-radius: 15px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Pic_I_V_Ivasiuk_Mykola_Bohdan_Khmelnytskys_Entry_to_Kyiv.jpg/640px-Pic_I_V_Ivasiuk_Mykola_Bohdan_Khmelnytskys_Entry_to_Kyiv.jpg);
+}
+
+footer p {
+    background-color: #E9F4DD;
+    color: black;
+    padding: 15px;}
